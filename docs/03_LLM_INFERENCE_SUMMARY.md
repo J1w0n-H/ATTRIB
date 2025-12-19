@@ -2,7 +2,7 @@
 
 ## 개요
 
-`03_llm_inference_modules.py`는 Ground Truth 데이터에 LLM을 적용하여 취약점의 근본 원인을 추론하는 계층적 파이프라인입니다. Module 0 (전처리)과 3개의 추론 모듈로 구성되어 있으며, 각 모듈은 서로 다른 추상화 수준에서 분석을 수행합니다.
+`03_llm_inference_modules.py`는 Ground Truth 데이터에 LLM을 적용하여 취약점의 근본 원인을 추론하는 계층적 파이프라인입니다. Module 0 (전처리)과 3개의 추론 모듈로 구성되어 있으며, 각 모듈은 서로 다른 추상화 수준에서 분석을 수행합니다. 특히 **Module 3은 새로운 분류기가 아니라 Module 1 결과를 교차 프로젝트 증거로 검증·정제하는 validation/consolidation 레이어**입니다.
 
 ---
 

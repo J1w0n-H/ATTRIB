@@ -1,6 +1,6 @@
-# GitHub Release Package (Paper + Code + Results)
+# ATTRIB: Vulnerability Attribution Release Package
 
-This folder is a **self-contained, GitHub-ready** package for the paper, the core pipeline scripts, and the artifacts needed to reproduce the **paper metrics**.
+This folder is a **self-contained, GitHub-ready** package for the paper, the core pipeline scripts, and the artifacts needed to reproduce the **paper metrics** without re-running any LLM calls.
 
 ## Folder Structure
 
@@ -23,22 +23,22 @@ This folder is a **self-contained, GitHub-ready** package for the paper, the cor
   - `ground_truth_uuv52.json`: GT subset for 52 cases
   - Stage checkpoints for ablation: `llm_inference_results_checkpoint_module1_bugtype_groups.json`, `llm_inference_results_checkpoint_module2_subgroups.json`
 
-## Prerequisites
+## Prerequisites (for metric reproduction only)
 
 - **Python 3.9+**
 - Optional (only for baseline-from-DB features): `arvo.db`
 
 ### `arvo.db` location assumption
 
-If you want to run scripts that query ARVO DB (e.g., extraction, some baseline checks), place `arvo.db` at:
+If you want to run scripts that query ARVO DB (e.g., extraction, ARVO baseline checks), place `arvo.db` at:
 
-- `./arvo.db` (same directory as this `README.md`)
-
-You can also override with:
+- `./arvo.db` (same directory as this `README.md`) **or** override with:
 
 ```bash
 export ARVO_DB_PATH=/absolute/path/to/arvo.db
 ```
+
+Recomputing paper metrics with the provided artifacts **does not require** `arvo.db` or any LLM access.
 
 ## Quickstart: Reproduce Paper Metrics (517-case + 52-case)
 
@@ -62,7 +62,7 @@ Instead, this package includes **case-subset GT files** (`ground_truth_uuv517.js
 
 ## Running the full LLM inference pipeline
 
-`code/03_llm_inference_modules.py` requires an LLM API key and additional runtime setup (network access, provider credentials). The shipped artifacts already contain the inference outputs used for the paper.
+`code/03_llm_inference_modules.py` requires an LLM API key and additional runtime setup (network access, provider credentials). The shipped artifacts already contain the inference outputs used for the paper, so you do **not** need to call the LLM to reproduce reported metrics.
 
 
 

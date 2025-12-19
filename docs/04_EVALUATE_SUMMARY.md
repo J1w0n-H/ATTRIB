@@ -51,7 +51,7 @@
 본 프로젝트에서 baseline은 **ARVO의 submodule 기반 의존성 판정**으로 정의하고, **ARVO DB(`arvo.db`)에서 직접 측정**합니다.
 
 - **Baseline 정의**: `Dependency_Specific` iff `arvo.submodule_bug == 1`, else `Main_Project_Specific`
-- **측정 데이터**: `/root/Git/arvo.db`의 `arvo` 테이블
+- **측정 데이터**: `./arvo.db` (또는 `ARVO_DB_PATH` 환경변수로 지정) 내 `arvo` 테이블
 
 ### 2. Per-Type Metrics (타입별 메트릭)
 
