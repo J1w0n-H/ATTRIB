@@ -1,0 +1,14 @@
+/.venv/
+/venv/
+__pycache__/
+*.pyc
+
+# Large local DB (not shipped)
+arvo.db
+
+# Logs and local outputs
+*.log
+evaluation_recomputed_*.json
+**/tmp/
+
+

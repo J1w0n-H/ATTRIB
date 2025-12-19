@@ -1,0 +1,288 @@
+{
+  "summary": {
+    "source": "evaluation_results_uuv52_regen.json",
+    "note": "Subset GT extracted from evaluation_results to reproduce paper metrics without shipping full ground_truth.json",
+    "tag": "uuv52",
+    "total_cases": 52
+  },
+  "ground_truth": [
+    {
+      "localId": 379072442,
+      "Heuristically_Root_Cause_Type": "Main_Project_Specific",
+      "Heuristically_Root_Cause_Dependency": null
+    },
+    {
+      "localId": 42540701,
+      "Heuristically_Root_Cause_Type": "Main_Project_Specific",
+      "Heuristically_Root_Cause_Dependency": null
+    },
+    {
+      "localId": 42539721,
+      "Heuristically_Root_Cause_Type": "Main_Project_Specific",
+      "Heuristically_Root_Cause_Dependency": null
+    },
+    {
+      "localId": 369974248,
+      "Heuristically_Root_Cause_Type": "Main_Project_Specific",
+      "Heuristically_Root_Cause_Dependency": null
+    },
+    {
+      "localId": 42540302,
+      "Heuristically_Root_Cause_Type": "Main_Project_Specific",
+      "Heuristically_Root_Cause_Dependency": null
+    },
+    {
+      "localId": 42539832,
+      "Heuristically_Root_Cause_Type": "Main_Project_Specific",
+      "Heuristically_Root_Cause_Dependency": null
+    },
+    {
+      "localId": 42539722,
+      "Heuristically_Root_Cause_Type": "Main_Project_Specific",
+      "Heuristically_Root_Cause_Dependency": null
+    },
+    {
+      "localId": 432073014,
+      "Heuristically_Root_Cause_Type": "Dependency_Specific",
+      "Heuristically_Root_Cause_Dependency": {
+        "name": "libjxl"
+      }
+    },
+    {
+      "localId": 418219398,
+      "Heuristically_Root_Cause_Type": "Dependency_Specific",
+      "Heuristically_Root_Cause_Dependency": {
+        "name": "libheif"
+      }
+    },
+    {
+      "localId": 371659889,
+      "Heuristically_Root_Cause_Type": "Main_Project_Specific",
+      "Heuristically_Root_Cause_Dependency": null
+    },
+    {
+      "localId": 42540898,
+      "Heuristically_Root_Cause_Type": "Main_Project_Specific",
+      "Heuristically_Root_Cause_Dependency": null
+    },
+    {
+      "localId": 42539707,
+      "Heuristically_Root_Cause_Type": "Main_Project_Specific",
+      "Heuristically_Root_Cause_Dependency": null
+    },
+    {
+      "localId": 378750938,
+      "Heuristically_Root_Cause_Type": "Main_Project_Specific",
+      "Heuristically_Root_Cause_Dependency": null
+    },
+    {
+      "localId": 42540519,
+      "Heuristically_Root_Cause_Type": "Dependency_Specific",
+      "Heuristically_Root_Cause_Dependency": {
+        "name": "libraw"
+      }
+    },
+    {
+      "localId": 42540407,
+      "Heuristically_Root_Cause_Type": "Dependency_Specific",
+      "Heuristically_Root_Cause_Dependency": {
+        "name": "libraw"
+      }
+    },
+    {
+      "localId": 42540203,
+      "Heuristically_Root_Cause_Type": "Main_Project_Specific",
+      "Heuristically_Root_Cause_Dependency": null
+    },
+    {
+      "localId": 42540064,
+      "Heuristically_Root_Cause_Type": "Main_Project_Specific",
+      "Heuristically_Root_Cause_Dependency": null
+    },
+    {
+      "localId": 42539971,
+      "Heuristically_Root_Cause_Type": "Main_Project_Specific",
+      "Heuristically_Root_Cause_Dependency": null
+    },
+    {
+      "localId": 42541325,
+      "Heuristically_Root_Cause_Type": "Dependency_Specific",
+      "Heuristically_Root_Cause_Dependency": {
+        "name": "libraw"
+      }
+    },
+    {
+      "localId": 42539975,
+      "Heuristically_Root_Cause_Type": "Dependency_Specific",
+      "Heuristically_Root_Cause_Dependency": {
+        "name": "libde265"
+      }
+    },
+    {
+      "localId": 42539723,
+      "Heuristically_Root_Cause_Type": "Main_Project_Specific",
+      "Heuristically_Root_Cause_Dependency": null
+    },
+    {
+      "localId": 429112760,
+      "Heuristically_Root_Cause_Type": "Main_Project_Specific",
+      "Heuristically_Root_Cause_Dependency": null
+    },
+    {
+      "localId": 378159150,
+      "Heuristically_Root_Cause_Type": "Main_Project_Specific",
+      "Heuristically_Root_Cause_Dependency": null
+    },
+    {
+      "localId": 376786412,
+      "Heuristically_Root_Cause_Type": "Main_Project_Specific",
+      "Heuristically_Root_Cause_Dependency": null
+    },
+    {
+      "localId": 42540826,
+      "Heuristically_Root_Cause_Type": "Main_Project_Specific",
+      "Heuristically_Root_Cause_Dependency": null
+    },
+    {
+      "localId": 42540576,
+      "Heuristically_Root_Cause_Type": "Dependency_Specific",
+      "Heuristically_Root_Cause_Dependency": {
+        "name": "capstonemaster"
+      }
+    },
+    {
+      "localId": 42540117,
+      "Heuristically_Root_Cause_Type": "Main_Project_Specific",
+      "Heuristically_Root_Cause_Dependency": null
+    },
+    {
+      "localId": 407185361,
+      "Heuristically_Root_Cause_Type": "Main_Project_Specific",
+      "Heuristically_Root_Cause_Dependency": null
+    },
+    {
+      "localId": 377965572,
+      "Heuristically_Root_Cause_Type": "Main_Project_Specific",
+      "Heuristically_Root_Cause_Dependency": null
+    },
+    {
+      "localId": 42541070,
+      "Heuristically_Root_Cause_Type": "Main_Project_Specific",
+      "Heuristically_Root_Cause_Dependency": null
+    },
+    {
+      "localId": 42541069,
+      "Heuristically_Root_Cause_Type": "Main_Project_Specific",
+      "Heuristically_Root_Cause_Dependency": null
+    },
+    {
+      "localId": 42539916,
+      "Heuristically_Root_Cause_Type": "Main_Project_Specific",
+      "Heuristically_Root_Cause_Dependency": null
+    },
+    {
+      "localId": 42539834,
+      "Heuristically_Root_Cause_Type": "Main_Project_Specific",
+      "Heuristically_Root_Cause_Dependency": null
+    },
+    {
+      "localId": 42540091,
+      "Heuristically_Root_Cause_Type": "Main_Project_Specific",
+      "Heuristically_Root_Cause_Dependency": null
+    },
+    {
+      "localId": 42540431,
+      "Heuristically_Root_Cause_Type": "Main_Project_Specific",
+      "Heuristically_Root_Cause_Dependency": null
+    },
+    {
+      "localId": 42540214,
+      "Heuristically_Root_Cause_Type": "Main_Project_Specific",
+      "Heuristically_Root_Cause_Dependency": null
+    },
+    {
+      "localId": 42540098,
+      "Heuristically_Root_Cause_Type": "Main_Project_Specific",
+      "Heuristically_Root_Cause_Dependency": null
+    },
+    {
+      "localId": 42539795,
+      "Heuristically_Root_Cause_Type": "Main_Project_Specific",
+      "Heuristically_Root_Cause_Dependency": null
+    },
+    {
+      "localId": 42539736,
+      "Heuristically_Root_Cause_Type": "Main_Project_Specific",
+      "Heuristically_Root_Cause_Dependency": null
+    },
+    {
+      "localId": 42539735,
+      "Heuristically_Root_Cause_Type": "Main_Project_Specific",
+      "Heuristically_Root_Cause_Dependency": null
+    },
+    {
+      "localId": 42539733,
+      "Heuristically_Root_Cause_Type": "Main_Project_Specific",
+      "Heuristically_Root_Cause_Dependency": null
+    },
+    {
+      "localId": 42539730,
+      "Heuristically_Root_Cause_Type": "Main_Project_Specific",
+      "Heuristically_Root_Cause_Dependency": null
+    },
+    {
+      "localId": 42539726,
+      "Heuristically_Root_Cause_Type": "Main_Project_Specific",
+      "Heuristically_Root_Cause_Dependency": null
+    },
+    {
+      "localId": 42539822,
+      "Heuristically_Root_Cause_Type": "Dependency_Specific",
+      "Heuristically_Root_Cause_Dependency": {
+        "name": "openssl"
+      }
+    },
+    {
+      "localId": 42539821,
+      "Heuristically_Root_Cause_Type": "Dependency_Specific",
+      "Heuristically_Root_Cause_Dependency": {
+        "name": "openssl"
+      }
+    },
+    {
+      "localId": 398527865,
+      "Heuristically_Root_Cause_Type": "Main_Project_Specific",
+      "Heuristically_Root_Cause_Dependency": null
+    },
+    {
+      "localId": 394650777,
+      "Heuristically_Root_Cause_Type": "Main_Project_Specific",
+      "Heuristically_Root_Cause_Dependency": null
+    },
+    {
+      "localId": 386128938,
+      "Heuristically_Root_Cause_Type": "Main_Project_Specific",
+      "Heuristically_Root_Cause_Dependency": null
+    },
+    {
+      "localId": 370775021,
+      "Heuristically_Root_Cause_Type": "Main_Project_Specific",
+      "Heuristically_Root_Cause_Dependency": null
+    },
+    {
+      "localId": 42541072,
+      "Heuristically_Root_Cause_Type": "Main_Project_Specific",
+      "Heuristically_Root_Cause_Dependency": null
+    },
+    {
+      "localId": 42540775,
+      "Heuristically_Root_Cause_Type": "Main_Project_Specific",
+      "Heuristically_Root_Cause_Dependency": null
+    },
+    {
+      "localId": 42540591,
+      "Heuristically_Root_Cause_Type": "Main_Project_Specific",
+      "Heuristically_Root_Cause_Dependency": null
+    }
+  ]
+}

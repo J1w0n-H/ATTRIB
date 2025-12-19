@@ -1,0 +1,15 @@
+localId,gt_type,stage1_type,stage3_type,stage1_correct,stage3_correct,stage1_confidence,sub_group_id
+42540898,Main_Project_Specific,Main_Project_Specific,Dependency_Specific,True,False,0.85,4
+378750938,Main_Project_Specific,Main_Project_Specific,Dependency_Specific,True,False,0.85,4
+42541325,Dependency_Specific,Dependency_Specific,Main_Project_Specific,True,False,0.78,5
+42539975,Dependency_Specific,Dependency_Specific,Main_Project_Specific,True,False,0.88,5
+42540117,Main_Project_Specific,Main_Project_Specific,Dependency_Specific,True,False,0.8,7
+407185361,Main_Project_Specific,Main_Project_Specific,Dependency_Specific,True,False,0.87,7
+377965572,Main_Project_Specific,Main_Project_Specific,Dependency_Specific,True,False,0.87,7
+42541070,Main_Project_Specific,Main_Project_Specific,Dependency_Specific,True,False,0.8,7
+42541069,Main_Project_Specific,Main_Project_Specific,Dependency_Specific,True,False,0.85,7
+42539916,Main_Project_Specific,Main_Project_Specific,Dependency_Specific,True,False,0.88,7
+42539834,Main_Project_Specific,Main_Project_Specific,Dependency_Specific,True,False,0.88,7
+42540431,Main_Project_Specific,Dependency_Specific,Main_Project_Specific,False,True,0.85,8
+42539821,Dependency_Specific,Main_Project_Specific,Dependency_Specific,False,True,0.8,9
+42541072,Main_Project_Specific,Main_Project_Specific,Dependency_Specific,True,False,0.9,12
