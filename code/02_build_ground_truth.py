@@ -50,7 +50,12 @@ except Exception as e:
         print(f"[!] Error importing extract_from_db: {e}")
         raise
 
-DB_PATH = os.environ.get("ARVO_DB_PATH") or str((Path(__file__).resolve().parents[1] / "arvo.db"))
+def resolve_db_path() -> str:
+    """Return ARVO DB path (env override supported) as string."""
+    return os.environ.get("ARVO_DB_PATH") or str((Path(__file__).resolve().parents[1] / "arvo.db"))
+
+
+DB_PATH = resolve_db_path()
 
 
 class GroundTruthBuilder:

@@ -59,7 +59,12 @@ except Exception as e:
     def extract_data(local_id: int, include_code_snippets: bool = False, auto_fetch: bool = False):
         raise RuntimeError("extract_from_db module not available. Please ensure 01_extract_from_db.py exists.")
 
-DB_PATH = os.environ.get("ARVO_DB_PATH") or str((Path(__file__).resolve().parents[1] / "arvo.db"))
+def resolve_db_path() -> str:
+    """Return ARVO DB path (env override supported) as string."""
+    return os.environ.get("ARVO_DB_PATH") or str((Path(__file__).resolve().parents[1] / "arvo.db"))
+
+
+DB_PATH = resolve_db_path()
 
 @dataclass
 class PatchSemanticClassification:
